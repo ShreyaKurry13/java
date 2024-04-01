@@ -32,14 +32,15 @@ import java.util.Scanner;
 
 // Average of an Array
 
-class  avgArray{
-    public static void main(String args[]){
-        int[] arr = {100,20,300,40,500};
-        double  sum = 0;
-        for(int i = 0;i <arr.length;i++){
-            sum += arr[i];
-        }
-        double average = sum / arr.length;
-        System.out.println("Avergae of array elements are :" +average );
-    }
-}
+// class  avgArray{
+//     public static void main(String args[]){
+//         int[] arr = {100,20,300,40,500};
+//         double  sum = 0;
+//         for(int i = 0;i <arr.length;i++){
+//             sum += arr[i];
+//         }
+//         double average = sum / arr.length;
+//         System.out.println("Avergae of array elements are :" +average );
+//     }
+// }
+
