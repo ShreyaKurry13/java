@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.Random;
 
 // public class basic {
 //     public static void main(String args[]){
@@ -44,3 +44,45 @@ import java.util.Scanner;
 //     }
 // }
 
+// random number between range
+
+// class  RandomNumber{
+//     public static void main(String[] args) {
+        
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter start range : ");
+//         int start = sc.nextInt();
+
+//         System.out.print("Enter end range : ");
+//         int end = sc.nextInt();
+
+//         Random rc = new Random();
+//         int rand = rc.nextInt((end -start) +1) +start; 
+
+//         System.out.println("Random Number between " + start + " and " +end+ " is: "+rand);
+//     }
+// }
+
+// Swapping numbers
+
+class swap{
+    public static void main(String[] args) {
+        
+        // int a=5;
+        // int b=10;
+        Scanner sc =new Scanner(System.in);
+        System.out.print("Enter first number :");
+        int a = sc.nextInt();
+
+        System.out.print("Enter second number :");
+        int b = sc.nextInt();
+
+        System.out.println("Before swapping: a = "+a+ " and b = " +b);
+
+        int temp = a;
+        a=b;
+        b=temp;
+
+        System.out.println("After swapping: a = "+a+ " and b = " +b);
+    }
+}
