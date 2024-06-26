@@ -14,7 +14,7 @@
 
 // Maximum no from array
 
-// public class main {
+// public class newbasics {
 //   public static void main(String[] args) {
 //     int [] arr = {20,45,30,89,100,121,11};
 //     int max = arr[0];
@@ -30,6 +30,21 @@
 
 // minimum no from the array
 
+// public class newbasics {
+//  public static void main(String[] args) {
+//     int [] arr = {10,50,30,2,56,0,1};
+//     int min =arr[0];
+
+//     for(int i=0;i<arr.length;i++){
+//         if (min > arr[i]) {
+//             min = arr[i];
+//         }
+//     }
+//     System.out.println("The minimum number is: "+min);
+//  }
+    
+// }
+
 // print alternate num from array
 
 // public class main{
@@ -44,16 +59,39 @@
 
 // sum of all ages in a array
  
-public class newbasics {
- public static void main(String[] args) {
-    int [] arr = {49,43,22,15,9};
-    int sum=0;
+// public class newbasics {
+//  public static void main(String[] args) {
+//     int [] arr = {49,43,22,15,9};
+//     int sum=0;
 
-    for(int i:arr){
-        sum+=arr[i];
-    }
-    int avg= sum/arr.length;
-    System.out.println("The sum of all ages is: "+sum);
-    System.out.println("The average age is: "+avg);
-        }
-}
+//     for(int i=0;i<arr.length;i++){
+//         sum = sum + arr[i];
+//     }
+//     int avg= sum/arr.length;
+//     System.out.println("The sum of all ages is: "+sum);
+//     System.out.println("The average age is: "+avg);
+//         }
+// }
+
+// removing white spaces from sentence
+
+// public class newbasics {
+//     public static void main(String[] args) {
+
+//        String str = "Hello , I am Shreya Kurry";
+//        String newstr = str.replaceAll("\\s", "");
+//        System.out.println(newstr);
+//         }
+// }
+
+
+// removing vowels from a string
+
+// public class newbasics{
+//     public static void main(String [] args){
+//         // String str = "Yesterday";
+//         String str = "Hello, I am Shreya Kurry";
+//         String newstr = str.replaceAll("[aeiouAEIOU]", "");
+//         System.out.println(newstr);
+//     }
+// }
