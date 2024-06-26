@@ -8,9 +8,7 @@ import java.util.Scanner;
 //         Scanner s = new Scanner(System.in);
 //         System.out.println("Enter a number:");
 //         num = s.nextInt();
-
 //         System.out.println("The entered number is " + num);
-        
 //     }
 // }
 
@@ -29,7 +27,6 @@ import java.util.Scanner;
 //       n1=n2;    
 //       n2=n3;    
 //      }    
-      
 //     }
 // }  
 
@@ -144,7 +141,7 @@ import java.util.Scanner;
 //         }
 //     }
 // }
-
+                                                
 // Reverse a String
 
 // class  Reverse_string {
@@ -165,6 +162,6 @@ import java.util.Scanner;
 //         }else{
 //             System.out.println("The given string  is not palindrome.");
 //         }
-        
 //     }
 // }
+

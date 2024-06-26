@@ -46,7 +46,7 @@ import java.util.Random;
 
 // random number between range
 
-// class  RandomNumber{
+// class  RandomNumber{         
 //     public static void main(String[] args) {
         
 //         Scanner sc = new Scanner(System.in);
@@ -65,24 +65,41 @@ import java.util.Random;
 
 // Swapping numbers
 
-class swap{
-    public static void main(String[] args) {
+// class swap{
+//     public static void main(String[] args) {
         
-        // int a=5;
-        // int b=10;
-        Scanner sc =new Scanner(System.in);
-        System.out.print("Enter first number :");
-        int a = sc.nextInt();
+//         // int a=5;
+//         // int b=10;
+//         Scanner sc =new Scanner(System.in);
+//         System.out.print("Enter first number :");
+//         int a = sc.nextInt();
 
-        System.out.print("Enter second number :");
-        int b = sc.nextInt();
+//         System.out.print("Enter second number :");
+//         int b = sc.nextInt();
 
-        System.out.println("Before swapping: a = "+a+ " and b = " +b);
+//         System.out.println("Before swapping: a = "+a+ " and b = " +b);
 
-        int temp = a;
-        a=b;
-        b=temp;
+//         int temp = a;
+//         a=b;
+//         b=temp;
 
-        System.out.println("After swapping: a = "+a+ " and b = " +b);
+//         System.out.println("After swapping: a = "+a+ " and b = " +b);
+//     }
+// }
+
+
+class MaxMinArray {
+    public static void main(String[] args) {
+        int[] numbers = {5, 10, 3, 8, 20};
+        int max = numbers[0];
+        int min = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > max)
+                max = numbers[i];
+            if (numbers[i] < min)
+                min = numbers[i];
+        }
+        System.out.println("Maximum element: " + max);
+        System.out.println("Minimum element: " + min);
     }
 }
