@@ -95,3 +95,18 @@
 //         System.out.println(newstr);
 //     }
 // }
+
+// remove vowels using for loop
+
+public class newbasics{
+    public static void main(String []args){
+
+        String str ="I am Shreya" , newStr = "";
+
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)!='a' && str.charAt(i)!='e' && str.charAt(i)!='o' && str.charAt(i)!='u' ){
+                newStr = newStr + str.charAt(i);
+                }
+            }
+        }
+    }
