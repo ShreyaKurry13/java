@@ -11,6 +11,7 @@ import java.util.Scanner;
 //         System.out.println("The entered number is " + num);
 //     }
 // }
+ 
 
 // Fibonacci series
 
