@@ -85,14 +85,35 @@
 // }
 
 
-// removing vowels from a string
+// count of vowels from a string
 
 // public class newbasics{
 //     public static void main(String [] args){
 //         // String str = "Yesterday";
 //         String str = "Hello, I am Shreya Kurry";
-//         String newstr = str.replaceAll("[aeiouAEIOU]", "");
-//         System.out.println(newstr);
+//         // String newstr = str.replaceAll("[aeiouAEIOU]", "");
+//         int vowelCount =0;
+//         for(int i=0;i<str.length();i++){
+//             char ch = str.charAt(i);
+//             if(ch == 'a' || ch == 'e' || ch == 'i' || ch=='o' || ch=='u'){
+//                vowelCount++;
+//             }
+//         }
+//         System.out.println("The number of vowels in the string " +str + " is: " +vowelCount);
 //     }
 // }
+
+// Swap Values without using any variable a=10, b=12.
+
+public class newbasics {
+    public static void main(String[] args) {
+        int a = 20, b=42;
+        System.out.println("Before swapping: a = "+a+ " b= " +b);
+        a =a+b;
+        b=a-b;
+        a = a-b;
+        System.out.println("After swapping: a = "+a+ " b= " +b);
+    }
+}
+
 
