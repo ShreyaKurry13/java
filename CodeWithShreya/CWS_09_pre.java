@@ -24,7 +24,10 @@ public class CWS_09_pre {
                                         // Operators of the same precedence are evaluated left to right.
                                         //Java incorrectly interprets the denominator due to missing parentheses. ---->()
 
-              // 2*2-4*2*1/2*2   --> 4-4*2*1/2*2 -->  4-8*1/2*2  --> 4-8/2*2  -->  4-4*2  ---> 4-8 ---> -4                       
+
+              // 2*2-4*2*1/2*2   --> 4-4*2*1/2*2 -->  4-8*1/2*2  --> 4-8/2*2  -->  4-4*2  ---> 4-8 ---> -4             
+              
+              
         System.out.println(d); 
     }
 }
