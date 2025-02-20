@@ -25,7 +25,7 @@ public class CWS_12_chpt2_ps {
 
 
         // Question 5   
-        int r = 7;
+        int b= 7;
         int p = 7*49/7+35/7;
         System.out.println(p);
     }
