@@ -15,8 +15,18 @@ public class CWS_14_string_methods {
         // System.out.println(name.replace("y","e"));   // replaces all occurrences of 'y' with 'e'
         // System.out.println(name.replace("ey", "eeya"));   // replaces all occurrences of 'y' with 'eya'
 
-        System.out.println(name.startsWith("sh"));
-        System.out.println(name.endsWith("ya"));
+        // System.out.println(name.startsWith("sh")); // returns true if the string starts with "sh" otherwise false
+        // System.out.println(name.endsWith("ya"));   // returns true if the string ends with "ya" otherwise false
+
+        // System.out.println(name.charAt(3));  // returns the character at the index 3
+
+        System.out.println(name.indexOf('e'));  // returns the index of the first occurrence of 'r' in the string  
+        System.out.println(name.indexOf('e', 1));  // returns the index of the first occurrence of 'e' in the string starting from index 1
 
     }
 }
+
+
+
+
+
